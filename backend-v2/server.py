@@ -10,6 +10,7 @@ def serve():
     evaluator_pb2_grpc.add_EvaluatorServicer_to_server(evaluator.Evaluator(), server)
     server.add_insecure_port('[::]:50051')
     server.start()
+    print("server started")
     try:
         while True:
             time.sleep(_ONE_DAY_IN_SECONDS)
