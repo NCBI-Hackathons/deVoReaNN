@@ -1,0 +1,22 @@
+-
+ Conv 
+ 32
+-
+ Conv
+ 32
+-
+ Maxpooling
+ 1
+-
+ Dropout
+ 0.25
+-
+ Flatten
+ 1
+-
+ Dense
+ 128
+-
+ Dropout
+ 0.5
+
