@@ -1,4 +1,6 @@
-#DeepSpace
+# DeepSpace 
+
+## A VR Environment for Assembling Neural Networks!
 
 Please cite our work -- here is the ICMJE Standard Citation:
 
