@@ -39,8 +39,10 @@ public class TestingEvaluator : MonoBehaviour
     }
 
     IEnumerable DoRequest(AsyncServerStreamingCall<ProgressUpdate> call) {
+        Debug.Log("DoRequest invoked.");
         while (call.ResponseStream.MoveNext(CancellationToken.None).Result)
         {
+            Debug.Log("Received response.");
             var progress = call.ResponseStream.Current;
             Debug.Log(progress.Accuracy);
         }
