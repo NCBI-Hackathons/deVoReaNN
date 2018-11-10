@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package dlvr;
+package evaluator;
 
 message EvaluateRequest {
     repeated Layer layers = 1;
