@@ -1,1 +1,3 @@
-UHACK/Assets/Oculus/
+.vscode/
+.pyc
+venv/

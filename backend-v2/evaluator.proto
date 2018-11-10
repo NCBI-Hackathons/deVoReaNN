@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package dlvr;
+
+message EvaluateRequest {
+    repeated Layer layers = 1;
+}
+
+message Layer {
+    oneof definition {
+        ConvolutionLayer convolution = 1;
+        DropoutLayer dropout = 2;
+        FlattenLayer flatten = 3;
+        DenseLayer dense = 4;
+        MaxpoolingLayer maxpooling = 5;
+    };
+}
+
+message ConvolutionLayer {
+    int64 filters = 1;
+}
+
+message DropoutLayer {
+    // dimension represents the amount of data to drop.
+    float dimension = 1;
+}
+
+message FlattenLayer {
+}
+
+message DenseLayer {
+    int32 neurons = 1;
+}
+
+message MaxpoolingLayer {
+}
+
+message ProgressUpdate {
+    float accuracy = 1;
+    int32 epochs = 2;
+}
+
+service Evaluator {
+    rpc Evaluate(EvaluateRequest) returns (stream ProgressUpdate) {}
+}
