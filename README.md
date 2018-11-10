@@ -1,6 +1,6 @@
 # deVoReaNN
 
-A virtual reality environment for physically assembling deep learning models to solve data science problems.
+> A virtual reality environment for physically assembling deep learning models to solve data science problems.
 
 ![How it's pronounced](delorean.png)
 
