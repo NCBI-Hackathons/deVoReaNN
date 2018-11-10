@@ -57,6 +57,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         model.add(Activation('relu'))
         print(request.layers)
         for layer in request.layers:
+	#the size of pic is reduced by half each we add a maxpooling layer, original size is 28*28, can't have maxpooling more than 2 times.
             typ = layer.WhichOneof("definition")
             print("> adding layer: " + typ)
             if (typ == None):
