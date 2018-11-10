@@ -14,7 +14,7 @@ from keras import backend as K
 
 batch_size = 128
 nb_classes = 10
-nb_epoch = 12
+nb_epoch = 5
 
 img_rows, img_cols = 28, 28
 
@@ -83,15 +83,18 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
         print("> model compiled")
+        accuracy = 0
         for i in range(nb_epoch):
             print("> training epoch...")
             model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))
             print(model.summary())
             score = model.evaluate(X_test, Y_test, verbose=0)
-            yield evaluator_pb2.ProgressUpdate(accuracy=score[1], epochs=i)
+            accuracy = score[1]
         
         # save the weights
         model_digit_json = model.to_json()
         with open('/project/hackathon/hackers03/shared/model_digit.json','w') as json_file:
             json_file.write(model_digit_json)
             model.save_weights('/project/hackathon/hackers03/shared/model_digit.h5')
+
+        return evaluator_pb2.ProgressUpdate(accuracy=accuracy)

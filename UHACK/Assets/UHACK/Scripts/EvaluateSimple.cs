@@ -1,14 +1,18 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using Grpc.Core;
+using System.Threading.Tasks;
 using System.Threading;
 using Evaluator;
+using Google.Protobuf.Collections;
 
 public class EvaluateSimple : MonoBehaviour
 {
 
     Channel channel;
     Evaluator.Evaluator.EvaluatorClient client;
+    float accuracy;
 
     // Use this for initialization
     void Start()
@@ -23,8 +27,9 @@ public class EvaluateSimple : MonoBehaviour
     {
         EvaluateRequest req = new EvaluateRequest { };
         bool flat = false;
-        foreach (LayerType l in simpleLayers)
+        for (int i = 0; i < simpleLayers.Length; i++)
         {
+            LayerType l = simpleLayers[i];
             switch (l)
             {
                 case LayerType.Conv:
@@ -54,15 +59,14 @@ public class EvaluateSimple : MonoBehaviour
                     throw new System.ArgumentException("unknown layer type: " + l);
             }
         }
-        using (var call = client.Evaluate(req))
-        {
-            Debug.Log("Invoked evaluate.");
-            while (call.ResponseStream.MoveNext(CancellationToken.None).Result)
-            {
-                Debug.Log("Received response.");
-                var progress = call.ResponseStream.Current;
-                yield return progress;
+        if (!flat) {
+            req.Layers.Add(new Evaluator.Layer { Flatten = new Evaluator.FlattenLayer { } });
+        }
+        using (var call = client.EvaluateAsync(req)) {
+            while (!call.ResponseAsync.IsCompleted) {
+                yield return new WaitForSeconds(0.5f);
             }
+            accuracy = call.ResponseAsync.Result.Accuracy;
         }
     }
 }

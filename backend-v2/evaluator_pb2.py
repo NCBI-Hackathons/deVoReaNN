@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='evaluator.proto',
   package='evaluator',
   syntax='proto3',
-  # serialized_options=None,
-  serialized_pb=_b('\n\x0f\x65valuator.proto\x12\tevaluator\"3\n\x0f\x45valuateRequest\x12 \n\x06layers\x18\x01 \x03(\x0b\x32\x10.evaluator.Layer\"\xfb\x01\n\x05Layer\x12\x32\n\x0b\x63onvolution\x18\x01 \x01(\x0b\x32\x1b.evaluator.ConvolutionLayerH\x00\x12*\n\x07\x64ropout\x18\x02 \x01(\x0b\x32\x17.evaluator.DropoutLayerH\x00\x12*\n\x07\x66latten\x18\x03 \x01(\x0b\x32\x17.evaluator.FlattenLayerH\x00\x12&\n\x05\x64\x65nse\x18\x04 \x01(\x0b\x32\x15.evaluator.DenseLayerH\x00\x12\x30\n\nmaxpooling\x18\x05 \x01(\x0b\x32\x1a.evaluator.MaxpoolingLayerH\x00\x42\x0c\n\ndefinition\"#\n\x10\x43onvolutionLayer\x12\x0f\n\x07\x66ilters\x18\x01 \x01(\x03\"!\n\x0c\x44ropoutLayer\x12\x11\n\tdimension\x18\x01 \x01(\x02\"\x0e\n\x0c\x46lattenLayer\"\x1d\n\nDenseLayer\x12\x0f\n\x07neurons\x18\x01 \x01(\x05\"\x11\n\x0fMaxpoolingLayer\"2\n\x0eProgressUpdate\x12\x10\n\x08\x61\x63\x63uracy\x18\x01 \x01(\x02\x12\x0e\n\x06\x65pochs\x18\x02 \x01(\x05\x32R\n\tEvaluator\x12\x45\n\x08\x45valuate\x12\x1a.evaluator.EvaluateRequest\x1a\x19.evaluator.ProgressUpdate\"\x00\x30\x01\x62\x06proto3')
+  serialized_options=None,
+  serialized_pb=_b('\n\x0f\x65valuator.proto\x12\tevaluator\"3\n\x0f\x45valuateRequest\x12 \n\x06layers\x18\x01 \x03(\x0b\x32\x10.evaluator.Layer\"\xfb\x01\n\x05Layer\x12\x32\n\x0b\x63onvolution\x18\x01 \x01(\x0b\x32\x1b.evaluator.ConvolutionLayerH\x00\x12*\n\x07\x64ropout\x18\x02 \x01(\x0b\x32\x17.evaluator.DropoutLayerH\x00\x12*\n\x07\x66latten\x18\x03 \x01(\x0b\x32\x17.evaluator.FlattenLayerH\x00\x12&\n\x05\x64\x65nse\x18\x04 \x01(\x0b\x32\x15.evaluator.DenseLayerH\x00\x12\x30\n\nmaxpooling\x18\x05 \x01(\x0b\x32\x1a.evaluator.MaxpoolingLayerH\x00\x42\x0c\n\ndefinition\"#\n\x10\x43onvolutionLayer\x12\x0f\n\x07\x66ilters\x18\x01 \x01(\x03\"!\n\x0c\x44ropoutLayer\x12\x11\n\tdimension\x18\x01 \x01(\x02\"\x0e\n\x0c\x46lattenLayer\"\x1d\n\nDenseLayer\x12\x0f\n\x07neurons\x18\x01 \x01(\x05\"\x11\n\x0fMaxpoolingLayer\"\"\n\x0eProgressUpdate\x12\x10\n\x08\x61\x63\x63uracy\x18\x01 \x01(\x02\x32P\n\tEvaluator\x12\x43\n\x08\x45valuate\x12\x1a.evaluator.EvaluateRequest\x1a\x19.evaluator.ProgressUpdate\"\x00\x62\x06proto3')
 )
 
 
@@ -273,13 +273,6 @@ _PROGRESSUPDATE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='epochs', full_name='evaluator.ProgressUpdate.epochs', index=1,
-      number=2, type=5, cpp_type=1, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -293,7 +286,7 @@ _PROGRESSUPDATE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=475,
-  serialized_end=525,
+  serialized_end=509,
 )
 
 _EVALUATEREQUEST.fields_by_name['layers'].message_type = _LAYER
@@ -391,8 +384,8 @@ _EVALUATOR = _descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=527,
-  serialized_end=609,
+  serialized_start=511,
+  serialized_end=591,
   methods=[
   _descriptor.MethodDescriptor(
     name='Evaluate',

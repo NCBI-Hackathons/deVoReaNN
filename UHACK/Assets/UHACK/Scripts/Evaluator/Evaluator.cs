@@ -34,10 +34,10 @@ namespace Evaluator {
             "YXllckgAQgwKCmRlZmluaXRpb24iIwoQQ29udm9sdXRpb25MYXllchIPCgdm",
             "aWx0ZXJzGAEgASgDIiEKDERyb3BvdXRMYXllchIRCglkaW1lbnNpb24YASAB",
             "KAIiDgoMRmxhdHRlbkxheWVyIh0KCkRlbnNlTGF5ZXISDwoHbmV1cm9ucxgB",
-            "IAEoBSIRCg9NYXhwb29saW5nTGF5ZXIiMgoOUHJvZ3Jlc3NVcGRhdGUSEAoI",
-            "YWNjdXJhY3kYASABKAISDgoGZXBvY2hzGAIgASgFMlIKCUV2YWx1YXRvchJF",
-            "CghFdmFsdWF0ZRIaLmV2YWx1YXRvci5FdmFsdWF0ZVJlcXVlc3QaGS5ldmFs",
-            "dWF0b3IuUHJvZ3Jlc3NVcGRhdGUiADABYgZwcm90bzM="));
+            "IAEoBSIRCg9NYXhwb29saW5nTGF5ZXIiIgoOUHJvZ3Jlc3NVcGRhdGUSEAoI",
+            "YWNjdXJhY3kYASABKAIyUAoJRXZhbHVhdG9yEkMKCEV2YWx1YXRlEhouZXZh",
+            "bHVhdG9yLkV2YWx1YXRlUmVxdWVzdBoZLmV2YWx1YXRvci5Qcm9ncmVzc1Vw",
+            "ZGF0ZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -48,7 +48,7 @@ namespace Evaluator {
             new pbr::GeneratedClrTypeInfo(typeof(global::Evaluator.FlattenLayer), global::Evaluator.FlattenLayer.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Evaluator.DenseLayer), global::Evaluator.DenseLayer.Parser, new[]{ "Neurons" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Evaluator.MaxpoolingLayer), global::Evaluator.MaxpoolingLayer.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evaluator.ProgressUpdate), global::Evaluator.ProgressUpdate.Parser, new[]{ "Accuracy", "Epochs" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evaluator.ProgressUpdate), global::Evaluator.ProgressUpdate.Parser, new[]{ "Accuracy" }, null, null, null)
           }));
     }
     #endregion
@@ -1115,7 +1115,6 @@ namespace Evaluator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProgressUpdate(ProgressUpdate other) : this() {
       accuracy_ = other.accuracy_;
-      epochs_ = other.epochs_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1135,17 +1134,6 @@ namespace Evaluator {
       }
     }
 
-    /// <summary>Field number for the "epochs" field.</summary>
-    public const int EpochsFieldNumber = 2;
-    private int epochs_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Epochs {
-      get { return epochs_; }
-      set {
-        epochs_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ProgressUpdate);
@@ -1160,7 +1148,6 @@ namespace Evaluator {
         return true;
       }
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Accuracy, other.Accuracy)) return false;
-      if (Epochs != other.Epochs) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1168,7 +1155,6 @@ namespace Evaluator {
     public override int GetHashCode() {
       int hash = 1;
       if (Accuracy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Accuracy);
-      if (Epochs != 0) hash ^= Epochs.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1186,10 +1172,6 @@ namespace Evaluator {
         output.WriteRawTag(13);
         output.WriteFloat(Accuracy);
       }
-      if (Epochs != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Epochs);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1200,9 +1182,6 @@ namespace Evaluator {
       int size = 0;
       if (Accuracy != 0F) {
         size += 1 + 4;
-      }
-      if (Epochs != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Epochs);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1218,9 +1197,6 @@ namespace Evaluator {
       if (other.Accuracy != 0F) {
         Accuracy = other.Accuracy;
       }
-      if (other.Epochs != 0) {
-        Epochs = other.Epochs;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1234,10 +1210,6 @@ namespace Evaluator {
             break;
           case 13: {
             Accuracy = input.ReadFloat();
-            break;
-          }
-          case 16: {
-            Epochs = input.ReadInt32();
             break;
           }
         }

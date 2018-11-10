@@ -37,9 +37,8 @@ message MaxpoolingLayer {
 
 message ProgressUpdate {
     float accuracy = 1;
-    int32 epochs = 2;
 }
 
 service Evaluator {
-    rpc Evaluate(EvaluateRequest) returns (stream ProgressUpdate) {}
+    rpc Evaluate(EvaluateRequest) returns (ProgressUpdate) {}
 }

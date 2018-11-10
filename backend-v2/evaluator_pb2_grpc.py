@@ -14,7 +14,7 @@ class EvaluatorStub(object):
     Args:
       channel: A grpc.Channel.
     """
-    self.Evaluate = channel.unary_stream(
+    self.Evaluate = channel.unary_unary(
         '/evaluator.Evaluator/Evaluate',
         request_serializer=evaluator__pb2.EvaluateRequest.SerializeToString,
         response_deserializer=evaluator__pb2.ProgressUpdate.FromString,
@@ -35,7 +35,7 @@ class EvaluatorServicer(object):
 
 def add_EvaluatorServicer_to_server(servicer, server):
   rpc_method_handlers = {
-      'Evaluate': grpc.unary_stream_rpc_method_handler(
+      'Evaluate': grpc.unary_unary_rpc_method_handler(
           servicer.Evaluate,
           request_deserializer=evaluator__pb2.EvaluateRequest.FromString,
           response_serializer=evaluator__pb2.ProgressUpdate.SerializeToString,

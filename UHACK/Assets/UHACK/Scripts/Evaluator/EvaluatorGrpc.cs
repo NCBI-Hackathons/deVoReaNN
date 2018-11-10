@@ -16,7 +16,7 @@ namespace Evaluator {
     static readonly grpc::Marshaller<global::Evaluator.ProgressUpdate> __Marshaller_evaluator_ProgressUpdate = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Evaluator.ProgressUpdate.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Evaluator.EvaluateRequest, global::Evaluator.ProgressUpdate> __Method_Evaluate = new grpc::Method<global::Evaluator.EvaluateRequest, global::Evaluator.ProgressUpdate>(
-        grpc::MethodType.ServerStreaming,
+        grpc::MethodType.Unary,
         __ServiceName,
         "Evaluate",
         __Marshaller_evaluator_EvaluateRequest,
@@ -31,7 +31,7 @@ namespace Evaluator {
     /// <summary>Base class for server-side implementations of Evaluator</summary>
     public abstract partial class EvaluatorBase
     {
-      public virtual global::System.Threading.Tasks.Task Evaluate(global::Evaluator.EvaluateRequest request, grpc::IServerStreamWriter<global::Evaluator.ProgressUpdate> responseStream, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Evaluator.ProgressUpdate> Evaluate(global::Evaluator.EvaluateRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -61,13 +61,21 @@ namespace Evaluator {
       {
       }
 
-      public virtual grpc::AsyncServerStreamingCall<global::Evaluator.ProgressUpdate> Evaluate(global::Evaluator.EvaluateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Evaluator.ProgressUpdate Evaluate(global::Evaluator.EvaluateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Evaluate(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncServerStreamingCall<global::Evaluator.ProgressUpdate> Evaluate(global::Evaluator.EvaluateRequest request, grpc::CallOptions options)
+      public virtual global::Evaluator.ProgressUpdate Evaluate(global::Evaluator.EvaluateRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncServerStreamingCall(__Method_Evaluate, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Evaluate, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Evaluator.ProgressUpdate> EvaluateAsync(global::Evaluator.EvaluateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EvaluateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Evaluator.ProgressUpdate> EvaluateAsync(global::Evaluator.EvaluateRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Evaluate, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override EvaluatorClient NewInstance(ClientBaseConfiguration configuration)
