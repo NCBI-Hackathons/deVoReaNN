@@ -56,8 +56,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         model.add(Activation('relu'))
         print("added first layer")
         for layer in request.layers:
-            layer = evaluator_pb2.Layer(layer)
-            typ = request.WhichOneof("definition")
+            typ = layer.WhichOneof("definition")
             print("adding layer: " + typ)
             if (typ == None):
                 continue
@@ -80,9 +79,9 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # classification layer
         model.add(Dense(nb_classes))
         model.add(Activation('softmax'))
-        print(model.summary())
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
+        print(model.summary())
         for i in range(nb_epoch):
             print("training epoch...")
             model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))

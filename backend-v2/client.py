@@ -7,5 +7,4 @@ stub = evaluator_pb2_grpc.EvaluatorStub(channel)
 
 conv = evaluator_pb2.ConvolutionLayer(filters = 1);
 
-
 stub.Evaluate()

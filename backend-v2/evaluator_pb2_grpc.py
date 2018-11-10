@@ -15,7 +15,7 @@ class EvaluatorStub(object):
       channel: A grpc.Channel.
     """
     self.Evaluate = channel.unary_stream(
-        '/dlvr.Evaluator/Evaluate',
+        '/evaluator.Evaluator/Evaluate',
         request_serializer=evaluator__pb2.EvaluateRequest.SerializeToString,
         response_deserializer=evaluator__pb2.ProgressUpdate.FromString,
         )
@@ -42,5 +42,5 @@ def add_EvaluatorServicer_to_server(servicer, server):
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
-      'dlvr.Evaluator', rpc_method_handlers)
+      'evaluator.Evaluator', rpc_method_handlers)
   server.add_generic_rpc_handlers((generic_handler,))

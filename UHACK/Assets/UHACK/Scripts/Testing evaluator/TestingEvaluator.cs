@@ -9,10 +9,12 @@ using System.Threading;
 
 public class TestingEvaluator : MonoBehaviour
 {
+
     // Use this for initialization
-    void Start()
+    IEnumerator Start()
     {
-        Channel channel = new Channel("localhost:50051", ChannelCredentials.Insecure);
+        yield return null;
+        Channel channel = new Channel("127.0.0.1:50051", ChannelCredentials.Insecure);
         Debug.Log("Created channel.");
         try
         {
@@ -27,26 +29,20 @@ public class TestingEvaluator : MonoBehaviour
             using (var call = client.Evaluate(req))
             {
                 Debug.Log("Invoked evaluate.");
-                StartCoroutine("DoRequest", call);
+                while (call.ResponseStream.MoveNext(CancellationToken.None).Result)
+                {
+                    Debug.Log("Received response.");
+                    var progress = call.ResponseStream.Current;
+                    Debug.Log(progress.Accuracy);
+                }
             }
             channel.ShutdownAsync().Wait();
         }
         catch (Exception e)
         {
-            Debug.LogError(e);
+            Debug.LogError("grpc error: " + e.Message);
             throw;
         }
-    }
-
-    IEnumerable DoRequest(AsyncServerStreamingCall<ProgressUpdate> call) {
-        Debug.Log("DoRequest invoked.");
-        while (call.ResponseStream.MoveNext(CancellationToken.None).Result)
-        {
-            Debug.Log("Received response.");
-            var progress = call.ResponseStream.Current;
-            Debug.Log(progress.Accuracy);
-        }
-        yield return null;
     }
 
     // Update is called once per frame

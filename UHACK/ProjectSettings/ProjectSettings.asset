@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: ecdcb8c10e72f44c5860cadeb5cf38df
+  productGUID: ffeb94cb3d0ed45c5a150c659fbec007
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -642,7 +642,8 @@ PlayerSettings:
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: test3

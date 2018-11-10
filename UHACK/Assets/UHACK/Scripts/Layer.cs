@@ -12,12 +12,12 @@ public enum LayerType{
 }
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(OVRGrabbable))]
+//[RequireComponent(typeof(OVRGrabbable))]
 public class Layer : MonoBehaviour {
     //public bool isBeingHeld = true;
     
     public new Rigidbody rigidbody;
-    public OVRGrabbable grabbable;
+    //public OVRGrabbable grabbable;
 
     public LayerType layerType;
 
