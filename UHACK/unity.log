@@ -1,0 +1,1931 @@
+[Package Manager] Server::Start -- Port 51413 was selected
+
+LICENSE SYSTEM [20181110 16:36:15] Next license update check is after 2018-11-10T17:53:05
+
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-batchmode
+-nographics
+-silent-crashes
+-logFile
+/Users/meyerzinn/devel/deVoReaNN/UHACK/unity.log
+-projectPath
+/Users/meyerzinn/devel/deVoReaNN/UHACK
+-buildWindowsPlayer
+/Users/meyerzinn/devel/deVoReaNN/UHACK/Build/windows/deVoReaNN.exe
+-quit
+Successfully changed project path to: /Users/meyerzinn/devel/deVoReaNN/UHACK
+/Users/meyerzinn/devel/deVoReaNN/UHACK
+Loading GUID <-> Path mappings...0.000139 seconds
+Loading Asset Database...0.032782 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.046752 seconds
+Refreshing native plugins compatible for Editor in 62.88 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 4.95 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Done resolving packages in 0.17s seconds
+[Package Manager] Registering 36 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@2.0.16
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
+[Package Manager]  * Package :  com.unity.package-manager-ui@1.9.11
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.package-manager-ui@1.9.11)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.2.4
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: /Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.13
+    (location: /Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13)
+[Package Manager] Done registering packages in 0.01s seconds
+Initialize engine version: 2018.2.15f1 (65e0713a5949)
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56449
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003402 seconds.
+Registering precompiled user dll's ...
+Registered in 0.101492 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.1356372s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 4.81 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.730 seconds
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
+Registering platform support modules:
+Registered platform support modules in: 0.0676987s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 1.96 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+- Finished compile Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp/Unity.TextMeshPro.dll.mdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 58 milliseconds
+Pass: 1 took 21 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
+Registering platform support modules:
+Registered platform support modules in: 0.0681922s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 2.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Starting compile Library/ScriptAssemblies/Assembly-UnityScript.dll
+- Finished compile Library/ScriptAssemblies/Assembly-UnityScript.dll
+Symbols will be read from Temp/Assembly-UnityScript.dll.mdb
+Script Module: Assembly-UnityScript
+Pass: 0 took 32 milliseconds
+Pass: 1 took 10 milliseconds
+
+-----Compiler Commandline Arguments:
+Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
+Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-04b882cb8882a4cb7ad076e129b3733b
+index: 81
+Responsefile: Temp/UnityTempFile-04b882cb8882a4cb7ad076e129b3733b Contents: 
+-debug
+-target:library
+-nowarn:0169
+-langversion:6
+-out:'Temp/Assembly-CSharp.dll'
+-nostdlib
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FacebookModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll'
+-r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Plugins/Google.Protobuf/lib/net45/Google.Protobuf.dll'
+-r:'Assets/Plugins/Grpc.Core/lib/net45/Grpc.Core.dll'
+-r:'Assets/Plugins/System.Interactive.Async/lib/net45/System.Interactive.Async.dll'
+-r:'/Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll'
+-r:'/Users/meyerzinn/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_15
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+'Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs'
+'Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs'
+'Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs'
+'Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs'
+'Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatar.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarMeshInstance.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarProjectorRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSync.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs'
+'Assets/Oculus/Platform/Scripts/AbuseReportOptions.cs'
+'Assets/Oculus/Platform/Scripts/AbuseReportType.cs'
+'Assets/Oculus/Platform/Scripts/AchievementType.cs'
+'Assets/Oculus/Platform/Scripts/AndroidPlatform.cs'
+'Assets/Oculus/Platform/Scripts/ApplicationOptions.cs'
+'Assets/Oculus/Platform/Scripts/BufferedAudioStream.cs'
+'Assets/Oculus/Platform/Scripts/Callback.cs'
+'Assets/Oculus/Platform/Scripts/CallbackRunner.cs'
+'Assets/Oculus/Platform/Scripts/CAPI.cs'
+'Assets/Oculus/Platform/Scripts/CloudStorageDataStatus.cs'
+'Assets/Oculus/Platform/Scripts/CloudStorageUpdateStatus.cs'
+'Assets/Oculus/Platform/Scripts/Decoder.cs'
+'Assets/Oculus/Platform/Scripts/Encoder.cs'
+'Assets/Oculus/Platform/Scripts/IMicrophone.cs'
+'Assets/Oculus/Platform/Scripts/IVoipPCMSource.cs'
+'Assets/Oculus/Platform/Scripts/KeyValuePairType.cs'
+'Assets/Oculus/Platform/Scripts/LaunchType.cs'
+'Assets/Oculus/Platform/Scripts/LeaderboardFilterType.cs'
+'Assets/Oculus/Platform/Scripts/LeaderboardStartAt.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingAudience.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingMicrophoneStatus.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingStartStatus.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingCriterionImportance.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingOptions.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingStatApproach.cs'
+'Assets/Oculus/Platform/Scripts/MediaContentType.cs'
+'Assets/Oculus/Platform/Scripts/Message.cs'
+'Assets/Oculus/Platform/Scripts/MicrophoneInput.cs'
+'Assets/Oculus/Platform/Scripts/MicrophoneInputNative.cs'
+'Assets/Oculus/Platform/Scripts/Models/AbuseReportRecording.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementDefinition.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementProgress.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/ApplicationVersion.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetDetails.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDeleteResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadCancelResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageConflictMetadata.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageData.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageMetadata.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageUpdateResponse.cs'
+'Assets/Oculus/Platform/Scripts/Models/DeserializeableList.cs'
+'Assets/Oculus/Platform/Scripts/Models/Error.cs'
+'Assets/Oculus/Platform/Scripts/Models/HttpTransferUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/InstalledApplication.cs'
+'Assets/Oculus/Platform/Scripts/Models/LanguagePackInfo.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchBlockFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchDetails.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchFriendRequestFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchUnblockFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LeaderboardEntry.cs'
+'Assets/Oculus/Platform/Scripts/Models/LinkedAccount.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingApplicationStatus.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingStartResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingStatus.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingVideoStats.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshot.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshotCandidate.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingBrowseResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueuedUser.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResultAndRoom.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingStats.cs'
+'Assets/Oculus/Platform/Scripts/Models/NetworkingPeer.cs'
+'Assets/Oculus/Platform/Scripts/Models/OrgScopedID.cs'
+'Assets/Oculus/Platform/Scripts/Models/Party.cs'
+'Assets/Oculus/Platform/Scripts/Models/PartyID.cs'
+'Assets/Oculus/Platform/Scripts/Models/Pid.cs'
+'Assets/Oculus/Platform/Scripts/Models/PingResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/PlatformInitialize.cs'
+'Assets/Oculus/Platform/Scripts/Models/Product.cs'
+'Assets/Oculus/Platform/Scripts/Models/Purchase.cs'
+'Assets/Oculus/Platform/Scripts/Models/Room.cs'
+'Assets/Oculus/Platform/Scripts/Models/RoomInviteNotification.cs'
+'Assets/Oculus/Platform/Scripts/Models/SdkAccount.cs'
+'Assets/Oculus/Platform/Scripts/Models/ShareMediaResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/SystemPermission.cs'
+'Assets/Oculus/Platform/Scripts/Models/SystemVoipState.cs'
+'Assets/Oculus/Platform/Scripts/Models/User.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserAndRoom.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserProof.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserReportID.cs'
+'Assets/Oculus/Platform/Scripts/Packet.cs'
+'Assets/Oculus/Platform/Scripts/PeerConnectionState.cs'
+'Assets/Oculus/Platform/Scripts/PermissionGrantStatus.cs'
+'Assets/Oculus/Platform/Scripts/PermissionType.cs'
+'Assets/Oculus/Platform/Scripts/Platform.cs'
+'Assets/Oculus/Platform/Scripts/PlatformInitializeResult.cs'
+'Assets/Oculus/Platform/Scripts/PlatformInternal.cs'
+'Assets/Oculus/Platform/Scripts/PlatformSettings.cs'
+'Assets/Oculus/Platform/Scripts/Request.cs'
+'Assets/Oculus/Platform/Scripts/RoomJoinability.cs'
+'Assets/Oculus/Platform/Scripts/RoomJoinPolicy.cs'
+'Assets/Oculus/Platform/Scripts/RoomMembershipLockStatus.cs'
+'Assets/Oculus/Platform/Scripts/RoomOptions.cs'
+'Assets/Oculus/Platform/Scripts/RoomType.cs'
+'Assets/Oculus/Platform/Scripts/SdkAccountType.cs'
+'Assets/Oculus/Platform/Scripts/SendPolicy.cs'
+'Assets/Oculus/Platform/Scripts/ServiceProvider.cs'
+'Assets/Oculus/Platform/Scripts/ShareMediaStatus.cs'
+'Assets/Oculus/Platform/Scripts/StandalonePlatform.cs'
+'Assets/Oculus/Platform/Scripts/StandalonePlatformSettings.cs'
+'Assets/Oculus/Platform/Scripts/SystemVoipStatus.cs'
+'Assets/Oculus/Platform/Scripts/TimeWindow.cs'
+'Assets/Oculus/Platform/Scripts/UserOptions.cs'
+'Assets/Oculus/Platform/Scripts/UserOrdering.cs'
+'Assets/Oculus/Platform/Scripts/UserPresenceStatus.cs'
+'Assets/Oculus/Platform/Scripts/VoipAudioSource.cs'
+'Assets/Oculus/Platform/Scripts/VoipAudioSourceHiLevel.cs'
+'Assets/Oculus/Platform/Scripts/VoipBitrate.cs'
+'Assets/Oculus/Platform/Scripts/VoipDtxState.cs'
+'Assets/Oculus/Platform/Scripts/VoipInput.cs'
+'Assets/Oculus/Platform/Scripts/VoipMuteState.cs'
+'Assets/Oculus/Platform/Scripts/VoipOptions.cs'
+'Assets/Oculus/Platform/Scripts/VoipPCMSourceNative.cs'
+'Assets/Oculus/Platform/Scripts/VoipSampleRate.cs'
+'Assets/Oculus/Platform/Scripts/WindowsPlatform.cs'
+'Assets/Oculus/Spatializer/Scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/Oculus/Spatializer/Scripts/helpers/ONSPReflectionZone.cs'
+'Assets/Oculus/Spatializer/Scripts/OculusSpatializerUnity.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPAmbisonicsNative.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPAudioSource.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPProfiler.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPVersion.cs'
+'Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs'
+'Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs'
+'Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs'
+'Assets/Oculus/VR/Scripts/OVRBoundary.cs'
+'Assets/Oculus/VR/Scripts/OVRCameraRig.cs'
+'Assets/Oculus/VR/Scripts/OVRCommon.cs'
+'Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs'
+'Assets/Oculus/VR/Scripts/OVRDisplay.cs'
+'Assets/Oculus/VR/Scripts/OVRHaptics.cs'
+'Assets/Oculus/VR/Scripts/OVRHapticsClip.cs'
+'Assets/Oculus/VR/Scripts/OVRHeadsetEmulator.cs'
+'Assets/Oculus/VR/Scripts/OVRInput.cs'
+'Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs'
+'Assets/Oculus/VR/Scripts/OVRLint.cs'
+'Assets/Oculus/VR/Scripts/OVRManager.cs'
+'Assets/Oculus/VR/Scripts/OVRMixedReality.cs'
+'Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs'
+'Assets/Oculus/VR/Scripts/OVROverlay.cs'
+'Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs'
+'Assets/Oculus/VR/Scripts/OVRPlugin.cs'
+'Assets/Oculus/VR/Scripts/OVRProfile.cs'
+'Assets/Oculus/VR/Scripts/OVRTracker.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRRecord.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRTrackedRemote.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs'
+'Assets/SampleScenes/Cameras/Multiple Cameras/MultiCameraSample.cs'
+'Assets/SampleScenes/Common/Scripts/SamplePlayerController.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/CameraSwitch.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/LevelReset.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/CameraRefocus.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/CurveControlledBob.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/DragRigidbody.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/DynamicShadowSettings.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FollowTarget.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FOVKick.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/LerpControlledBob.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ObjectResetter.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleMouseRotator.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectActivator.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/WaypointCircuit.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/WaypointProgressTracker.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/BrakeLight.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarAIControl.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarAudio.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarController.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarSelfRighting.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarUserControl.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Mudguard.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/SkidTrail.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Suspension.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Wheel.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/BulletManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/CrosshairManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/GunManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/UIManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/WallManager.cs'
+'Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs'
+'Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportPoint.cs'
+'Assets/SampleScenes/First Person/Locomotion/Teleport/TeleportDemo.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/CharacterCameraConstraint.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/EventHandlerBehavior.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/LocomotionController.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/LocomotionTeleport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/OVRDebugDraw.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/OvrPlayerControllerConstraint.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/PlayerPositionIndicator.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/CameraConstraintsPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/CharacterCapsule.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/LocomotionPresetsPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/LocomotionSampleSupport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/TeleportTuningPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandlerLaser.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandlerParabolic.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisual.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportDestination.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandlerAvatarTouch.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandlerHMD.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandler360.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandlerHMD.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandlerThumbstick.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportSupport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerNavMesh.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerNode.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerPhysical.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransition.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionBlink.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionInstant.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionWarp.cs'
+'Assets/SampleScenes/First Person/Locomotion2/TeleportAvatar/TeleportAvatarDemo.cs'
+'Assets/SampleScenes/First Person/Mirror/Scripts/MirrorObject.cs'
+'Assets/SampleScenes/First Person/Scripts/MotionSample.cs'
+'Assets/SampleScenes/First Person/Scripts/RotationLock.cs'
+'Assets/SampleScenes/First Person/Scripts/ScaleSample.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/Elevator.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/ElevatorDoors.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/ElevatorTrigger.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/LightContrastFader.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/Staircase.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/StairInducedNausea.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/StairsControl.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDemoManager.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/KeepObjectInBounds.cs'
+'Assets/SampleScenes/Hands/Scripts/ColorGrabbable.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabbable.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabDemo.cs'
+'Assets/SampleScenes/Hands/Scripts/GrabbableCrosshair.cs'
+'Assets/SampleScenes/Hands/Scripts/GrabManager.cs'
+'Assets/SampleScenes/Hands/Scripts/Hand.cs'
+'Assets/SampleScenes/Hands/Scripts/HandPose.cs'
+'Assets/SampleScenes/Hands/Scripts/PauseOnInputLoss.cs'
+'Assets/SampleScenes/Hands/Scripts/TouchController.cs'
+'Assets/SampleScenes/Input/Input Tester/Scripts/InputTool.cs'
+'Assets/SampleScenes/Input/Keyboard/Scripts/VRKeyboard.cs'
+'Assets/SampleScenes/InputFocus/Scripts/InputFocusSample.cs'
+'Assets/SampleScenes/InputFocus/Scripts/MovingCube.cs'
+'Assets/SampleScenes/OVRHarness/Scripts/OVRHarness.cs'
+'Assets/SampleScenes/OVRHarness/Scripts/OVRSceneLoader.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/IOVRInspectorContext.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRDiscomfortWarning.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRDiscomfortWarningSource.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorContext.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorLoader.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorPanelBuilder.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRMousePointer.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRRenderTrackerFrustum.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRSettingsMenu.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRSliderLabelUpdater.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRUISettingsMenu.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRUserPanel.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRWarningList.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/UIUtils/OVRGazeEventTrigger.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/UIUtils/OVRGazeScroller.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/DisplayMono.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/MonoCamera.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/StereoToMono.cs'
+'Assets/SampleScenes/Rendering/Movie Player/MoviePlayerControl.cs'
+'Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs'
+'Assets/SampleScenes/Rendering/Render Frame Rate/TimeWarp30HzSample.cs'
+'Assets/SampleScenes/Rendering/Surface Detail/Scripts/ShaderDemo.cs'
+'Assets/SampleScenes/UI/Common/Scripts/leverSystem.cs'
+'Assets/SampleScenes/UI/Common/Scripts/LightControl.cs'
+'Assets/SampleScenes/UI/Common/Scripts/RotationControl.cs'
+'Assets/SampleScenes/UI/Overlay/Scripts/CylinderGeo.cs'
+'Assets/SampleScenes/UI/Overlay/Scripts/OverlayUIDemo.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionDemo.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionInputModule.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionReceiver.cs'
+'Assets/SampleScenes/UI/Pointers/Scripts/PointersControl.cs'
+'Assets/SampleScenes/UI/TrackerFrusta/Scripts/SensorManager.cs'
+'Assets/SampleScenes/UI/TrackerFrusta/Scripts/TrackerFrustum.cs'
+'Assets/UHACK-11_v02/Scripts/DataStream.cs'
+'Assets/UHACK-11_v02/Scripts/EvaluateSimple.cs'
+'Assets/UHACK-11_v02/Scripts/Evaluator/Evaluator.cs'
+'Assets/UHACK-11_v02/Scripts/Evaluator/EvaluatorGrpc.cs'
+'Assets/UHACK-11_v02/Scripts/Layer.cs'
+'Assets/UHACK-11_v02/Scripts/LayerManger.cs'
+'Assets/UHACK-11_v02/Scripts/LayerSpawner.cs'
+'Assets/UHACK-11_v02/Scripts/SnapContainer.cs'
+'Assets/UHACK-11_v02/Scripts/TestCollision.cs'
+'Assets/UHACK-11_v02/Scripts/UI.cs'
+'Assets/UHACK-11_v02/Scripts/VRButton.cs'
+-lib:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api'
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
+Compilation succeeded - 28 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0108: `VRButton.collider' hides inherited member `UnityEngine.Component.collider'. Use the new keyword if hiding was intended
+/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll (Location of the symbol related to previous warning)
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs(34,16): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs(259,7): warning CS0219: The variable `result' is assigned but its value is never used
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(52,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(52,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(58,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(58,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs(77,33): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs(28,26): warning CS0618: `UnityEngine.GUITexture' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(27,31): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(50,30): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(56,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(56,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(62,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(62,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs(44,13): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs(139,20): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs(90,17): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(34,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(41,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(24,18): warning CS0414: The private field `OvrAvatarComponent.DrawSkeleton' is assigned but its value is never used
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(25,18): warning CS0414: The private field `OvrAvatarComponent.FirstMaterialUpdate' is assigned but its value is never used
+Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs(83,22): warning CS0414: The private field `OVRTouchSample.DistanceGrabber.m_camera' is assigned but its value is never used
+Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs(229,18): warning CS0414: The private field `OVRInspector.roomForInspector' is assigned but its value is never used
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(72,20): warning CS0414: The private field `MoviePlayerSample.mediaFullPath' is assigned but its value is never used
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(73,15): warning CS0414: The private field `MoviePlayerSample.startedVideo' is assigned but its value is never used
+Assets/UHACK-11_v02/Scripts/SnapContainer.cs(7,17): warning CS0414: The private field `SnapContainer.Collider' is assigned but its value is never used
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0414: The private field `VRButton.collider' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 57 milliseconds
+Pass: 1 took 58 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0108: `VRButton.collider' hides inherited member `UnityEngine.Component.collider'. Use the new keyword if hiding was intended
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/VRButton.cs Line: 8)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs(34,16): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs Line: 34)
+
+Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs(259,7): warning CS0219: The variable `result' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs Line: 259)
+
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(52,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs Line: 52)
+
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(52,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs Line: 52)
+
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(58,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs Line: 58)
+
+Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs(58,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs Line: 58)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs(77,33): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs Line: 77)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs(28,26): warning CS0618: `UnityEngine.GUITexture' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs Line: 28)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(27,31): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs Line: 27)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(50,30): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs Line: 50)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(56,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs Line: 56)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(56,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs Line: 56)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(62,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs Line: 62)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs(62,37): warning CS0618: `UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged' is obsolete: `UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs Line: 62)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs(44,13): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs Line: 44)
+
+Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs(139,20): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs Line: 139)
+
+Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs(90,17): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs Line: 90)
+
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(34,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs Line: 34)
+
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(41,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs Line: 41)
+
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(24,18): warning CS0414: The private field `OvrAvatarComponent.DrawSkeleton' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs Line: 24)
+
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(25,18): warning CS0414: The private field `OvrAvatarComponent.FirstMaterialUpdate' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs Line: 25)
+
+Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs(83,22): warning CS0414: The private field `OVRTouchSample.DistanceGrabber.m_camera' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs Line: 83)
+
+Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs(229,18): warning CS0414: The private field `OVRInspector.roomForInspector' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs Line: 229)
+
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(72,20): warning CS0414: The private field `MoviePlayerSample.mediaFullPath' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs Line: 72)
+
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(73,15): warning CS0414: The private field `MoviePlayerSample.startedVideo' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs Line: 73)
+
+Assets/UHACK-11_v02/Scripts/SnapContainer.cs(7,17): warning CS0414: The private field `SnapContainer.Collider' is assigned but its value is never used
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/SnapContainer.cs Line: 7)
+
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0414: The private field `VRButton.collider' is assigned but its value is never used
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/VRButton.cs Line: 8)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
+Registering platform support modules:
+Registered platform support modules in: 0.0697068s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 1.89 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.031737 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 0.069303 seconds (Nothing changed)
+Refresh completed in 0.069331 seconds.
+WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
+Warming cache for 2633 main assets: 0.017643 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 313.8 MB.
+System memory in use after: 312.7 MB.
+
+Unloading 346 unused Assets to reduce memory usage. Loaded Objects now: 1369.
+Total: 8.077112 ms (FindLiveObjects: 1.290777 ms CreateObjectMapping: 0.159580 ms MarkObjects: 4.022121 ms  DeleteObjects: 2.602859 ms)
+
+Refreshing native plugins compatible for Editor in 25.21 ms, found 10 plugins.
+building x86 windows player!
+BuildPlayer: start building target 5
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp/Unity.TextMeshPro.dll.mdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 21 milliseconds
+Pass: 1 took 16 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Starting compile Library/ScriptAssemblies/Assembly-UnityScript.dll
+- Finished compile Library/ScriptAssemblies/Assembly-UnityScript.dll
+Symbols will be read from Temp/Assembly-UnityScript.dll.mdb
+Script Module: Assembly-UnityScript
+Pass: 0 took 38 milliseconds
+Pass: 1 took 2 milliseconds
+
+-----Compiler Commandline Arguments:
+Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
+Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-ebcdbb7e43a064f7daeaafbb3c81d632
+index: 81
+Responsefile: Temp/UnityTempFile-ebcdbb7e43a064f7daeaafbb3c81d632 Contents: 
+-debug
+-target:library
+-nowarn:0169
+-langversion:6
+-out:'Temp/Assembly-CSharp.dll'
+-nostdlib
+-optimize
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.LocalizationModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.StreamingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SubstanceModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.XRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Plugins/Google.Protobuf/lib/net45/Google.Protobuf.dll'
+-r:'Assets/Plugins/Grpc.Core/lib/net45/Grpc.Core.dll'
+-r:'Assets/Plugins/System.Interactive.Async/lib/net45/System.Interactive.Async.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_15
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:CROSS_PLATFORM_INPUT
+'Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs'
+'Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs'
+'Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs'
+'Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs'
+'Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs'
+'Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs'
+'Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatar.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarMeshInstance.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarProjectorRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs'
+'Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs'
+'Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs'
+'Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSync.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs'
+'Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs'
+'Assets/Oculus/Platform/Scripts/AbuseReportOptions.cs'
+'Assets/Oculus/Platform/Scripts/AbuseReportType.cs'
+'Assets/Oculus/Platform/Scripts/AchievementType.cs'
+'Assets/Oculus/Platform/Scripts/AndroidPlatform.cs'
+'Assets/Oculus/Platform/Scripts/ApplicationOptions.cs'
+'Assets/Oculus/Platform/Scripts/BufferedAudioStream.cs'
+'Assets/Oculus/Platform/Scripts/Callback.cs'
+'Assets/Oculus/Platform/Scripts/CallbackRunner.cs'
+'Assets/Oculus/Platform/Scripts/CAPI.cs'
+'Assets/Oculus/Platform/Scripts/CloudStorageDataStatus.cs'
+'Assets/Oculus/Platform/Scripts/CloudStorageUpdateStatus.cs'
+'Assets/Oculus/Platform/Scripts/Decoder.cs'
+'Assets/Oculus/Platform/Scripts/Encoder.cs'
+'Assets/Oculus/Platform/Scripts/IMicrophone.cs'
+'Assets/Oculus/Platform/Scripts/IVoipPCMSource.cs'
+'Assets/Oculus/Platform/Scripts/KeyValuePairType.cs'
+'Assets/Oculus/Platform/Scripts/LaunchType.cs'
+'Assets/Oculus/Platform/Scripts/LeaderboardFilterType.cs'
+'Assets/Oculus/Platform/Scripts/LeaderboardStartAt.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingAudience.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingMicrophoneStatus.cs'
+'Assets/Oculus/Platform/Scripts/LivestreamingStartStatus.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingCriterionImportance.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingOptions.cs'
+'Assets/Oculus/Platform/Scripts/MatchmakingStatApproach.cs'
+'Assets/Oculus/Platform/Scripts/MediaContentType.cs'
+'Assets/Oculus/Platform/Scripts/Message.cs'
+'Assets/Oculus/Platform/Scripts/MicrophoneInput.cs'
+'Assets/Oculus/Platform/Scripts/MicrophoneInputNative.cs'
+'Assets/Oculus/Platform/Scripts/Models/AbuseReportRecording.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementDefinition.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementProgress.cs'
+'Assets/Oculus/Platform/Scripts/Models/AchievementUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/ApplicationVersion.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetDetails.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDeleteResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadCancelResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageConflictMetadata.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageData.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageMetadata.cs'
+'Assets/Oculus/Platform/Scripts/Models/CloudStorageUpdateResponse.cs'
+'Assets/Oculus/Platform/Scripts/Models/DeserializeableList.cs'
+'Assets/Oculus/Platform/Scripts/Models/Error.cs'
+'Assets/Oculus/Platform/Scripts/Models/HttpTransferUpdate.cs'
+'Assets/Oculus/Platform/Scripts/Models/InstalledApplication.cs'
+'Assets/Oculus/Platform/Scripts/Models/LanguagePackInfo.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchBlockFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchDetails.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchFriendRequestFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LaunchUnblockFlowResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LeaderboardEntry.cs'
+'Assets/Oculus/Platform/Scripts/Models/LinkedAccount.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingApplicationStatus.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingStartResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingStatus.cs'
+'Assets/Oculus/Platform/Scripts/Models/LivestreamingVideoStats.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshot.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshotCandidate.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingBrowseResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueuedUser.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResultAndRoom.cs'
+'Assets/Oculus/Platform/Scripts/Models/MatchmakingStats.cs'
+'Assets/Oculus/Platform/Scripts/Models/NetworkingPeer.cs'
+'Assets/Oculus/Platform/Scripts/Models/OrgScopedID.cs'
+'Assets/Oculus/Platform/Scripts/Models/Party.cs'
+'Assets/Oculus/Platform/Scripts/Models/PartyID.cs'
+'Assets/Oculus/Platform/Scripts/Models/Pid.cs'
+'Assets/Oculus/Platform/Scripts/Models/PingResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/PlatformInitialize.cs'
+'Assets/Oculus/Platform/Scripts/Models/Product.cs'
+'Assets/Oculus/Platform/Scripts/Models/Purchase.cs'
+'Assets/Oculus/Platform/Scripts/Models/Room.cs'
+'Assets/Oculus/Platform/Scripts/Models/RoomInviteNotification.cs'
+'Assets/Oculus/Platform/Scripts/Models/SdkAccount.cs'
+'Assets/Oculus/Platform/Scripts/Models/ShareMediaResult.cs'
+'Assets/Oculus/Platform/Scripts/Models/SystemPermission.cs'
+'Assets/Oculus/Platform/Scripts/Models/SystemVoipState.cs'
+'Assets/Oculus/Platform/Scripts/Models/User.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserAndRoom.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserProof.cs'
+'Assets/Oculus/Platform/Scripts/Models/UserReportID.cs'
+'Assets/Oculus/Platform/Scripts/Packet.cs'
+'Assets/Oculus/Platform/Scripts/PeerConnectionState.cs'
+'Assets/Oculus/Platform/Scripts/PermissionGrantStatus.cs'
+'Assets/Oculus/Platform/Scripts/PermissionType.cs'
+'Assets/Oculus/Platform/Scripts/Platform.cs'
+'Assets/Oculus/Platform/Scripts/PlatformInitializeResult.cs'
+'Assets/Oculus/Platform/Scripts/PlatformInternal.cs'
+'Assets/Oculus/Platform/Scripts/PlatformSettings.cs'
+'Assets/Oculus/Platform/Scripts/Request.cs'
+'Assets/Oculus/Platform/Scripts/RoomJoinability.cs'
+'Assets/Oculus/Platform/Scripts/RoomJoinPolicy.cs'
+'Assets/Oculus/Platform/Scripts/RoomMembershipLockStatus.cs'
+'Assets/Oculus/Platform/Scripts/RoomOptions.cs'
+'Assets/Oculus/Platform/Scripts/RoomType.cs'
+'Assets/Oculus/Platform/Scripts/SdkAccountType.cs'
+'Assets/Oculus/Platform/Scripts/SendPolicy.cs'
+'Assets/Oculus/Platform/Scripts/ServiceProvider.cs'
+'Assets/Oculus/Platform/Scripts/ShareMediaStatus.cs'
+'Assets/Oculus/Platform/Scripts/StandalonePlatform.cs'
+'Assets/Oculus/Platform/Scripts/StandalonePlatformSettings.cs'
+'Assets/Oculus/Platform/Scripts/SystemVoipStatus.cs'
+'Assets/Oculus/Platform/Scripts/TimeWindow.cs'
+'Assets/Oculus/Platform/Scripts/UserOptions.cs'
+'Assets/Oculus/Platform/Scripts/UserOrdering.cs'
+'Assets/Oculus/Platform/Scripts/UserPresenceStatus.cs'
+'Assets/Oculus/Platform/Scripts/VoipAudioSource.cs'
+'Assets/Oculus/Platform/Scripts/VoipAudioSourceHiLevel.cs'
+'Assets/Oculus/Platform/Scripts/VoipBitrate.cs'
+'Assets/Oculus/Platform/Scripts/VoipDtxState.cs'
+'Assets/Oculus/Platform/Scripts/VoipInput.cs'
+'Assets/Oculus/Platform/Scripts/VoipMuteState.cs'
+'Assets/Oculus/Platform/Scripts/VoipOptions.cs'
+'Assets/Oculus/Platform/Scripts/VoipPCMSourceNative.cs'
+'Assets/Oculus/Platform/Scripts/VoipSampleRate.cs'
+'Assets/Oculus/Platform/Scripts/WindowsPlatform.cs'
+'Assets/Oculus/Spatializer/Scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/Oculus/Spatializer/Scripts/helpers/ONSPReflectionZone.cs'
+'Assets/Oculus/Spatializer/Scripts/OculusSpatializerUnity.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPAmbisonicsNative.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPAudioSource.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPProfiler.cs'
+'Assets/Oculus/Spatializer/Scripts/ONSPVersion.cs'
+'Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs'
+'Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs'
+'Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs'
+'Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs'
+'Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs'
+'Assets/Oculus/VR/Scripts/OVRBoundary.cs'
+'Assets/Oculus/VR/Scripts/OVRCameraRig.cs'
+'Assets/Oculus/VR/Scripts/OVRCommon.cs'
+'Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs'
+'Assets/Oculus/VR/Scripts/OVRDisplay.cs'
+'Assets/Oculus/VR/Scripts/OVRHaptics.cs'
+'Assets/Oculus/VR/Scripts/OVRHapticsClip.cs'
+'Assets/Oculus/VR/Scripts/OVRHeadsetEmulator.cs'
+'Assets/Oculus/VR/Scripts/OVRInput.cs'
+'Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs'
+'Assets/Oculus/VR/Scripts/OVRLint.cs'
+'Assets/Oculus/VR/Scripts/OVRManager.cs'
+'Assets/Oculus/VR/Scripts/OVRMixedReality.cs'
+'Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs'
+'Assets/Oculus/VR/Scripts/OVROverlay.cs'
+'Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs'
+'Assets/Oculus/VR/Scripts/OVRPlugin.cs'
+'Assets/Oculus/VR/Scripts/OVRProfile.cs'
+'Assets/Oculus/VR/Scripts/OVRTracker.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRRecord.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRTrackedRemote.cs'
+'Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs'
+'Assets/SampleScenes/Cameras/Multiple Cameras/MultiCameraSample.cs'
+'Assets/SampleScenes/Common/Scripts/SamplePlayerController.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/CameraSwitch.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/LevelReset.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/CameraRefocus.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/CurveControlledBob.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/DragRigidbody.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/DynamicShadowSettings.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FollowTarget.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FOVKick.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/LerpControlledBob.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ObjectResetter.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/PlatformSpecificContent.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleMouseRotator.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectActivator.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/WaypointCircuit.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Utility/WaypointProgressTracker.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/BrakeLight.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarAIControl.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarAudio.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarController.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarSelfRighting.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/CarUserControl.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Mudguard.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/SkidTrail.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Suspension.cs'
+'Assets/SampleScenes/Common/Unity Sample Assets/Vehicles/Car/Scripts/Wheel.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/BulletManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/CrosshairManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/GunManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/UIManager.cs'
+'Assets/SampleScenes/First Person/Crosshairs/Script/WallManager.cs'
+'Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs'
+'Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportPoint.cs'
+'Assets/SampleScenes/First Person/Locomotion/Teleport/TeleportDemo.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/CharacterCameraConstraint.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/EventHandlerBehavior.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/LocomotionController.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/LocomotionTeleport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/OVRDebugDraw.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/OvrPlayerControllerConstraint.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/PlayerPositionIndicator.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/CameraConstraintsPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/CharacterCapsule.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/LocomotionPresetsPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/LocomotionSampleSupport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/SampleSupport/TeleportTuningPanel.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandlerLaser.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimHandlerParabolic.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisual.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportDestination.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandlerAvatarTouch.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportInputHandlerHMD.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandler360.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandlerHMD.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportOrientationHandlerThumbstick.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportSupport.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandler.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerNavMesh.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerNode.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTargetHandlerPhysical.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransition.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionBlink.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionInstant.cs'
+'Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportTransitionWarp.cs'
+'Assets/SampleScenes/First Person/Locomotion2/TeleportAvatar/TeleportAvatarDemo.cs'
+'Assets/SampleScenes/First Person/Mirror/Scripts/MirrorObject.cs'
+'Assets/SampleScenes/First Person/Scripts/MotionSample.cs'
+'Assets/SampleScenes/First Person/Scripts/RotationLock.cs'
+'Assets/SampleScenes/First Person/Scripts/ScaleSample.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/Elevator.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/ElevatorDoors.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/ElevatorTrigger.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/LightContrastFader.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/Staircase.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/StairInducedNausea.cs'
+'Assets/SampleScenes/First Person/Stairs/Scripts/StairsControl.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDemoManager.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs'
+'Assets/SampleScenes/GuardianBoundarySystem/KeepObjectInBounds.cs'
+'Assets/SampleScenes/Hands/Scripts/ColorGrabbable.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabbable.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs'
+'Assets/SampleScenes/Hands/Scripts/DistanceGrabDemo.cs'
+'Assets/SampleScenes/Hands/Scripts/GrabbableCrosshair.cs'
+'Assets/SampleScenes/Hands/Scripts/GrabManager.cs'
+'Assets/SampleScenes/Hands/Scripts/Hand.cs'
+'Assets/SampleScenes/Hands/Scripts/HandPose.cs'
+'Assets/SampleScenes/Hands/Scripts/PauseOnInputLoss.cs'
+'Assets/SampleScenes/Hands/Scripts/TouchController.cs'
+'Assets/SampleScenes/Input/Input Tester/Scripts/InputTool.cs'
+'Assets/SampleScenes/Input/Keyboard/Scripts/VRKeyboard.cs'
+'Assets/SampleScenes/InputFocus/Scripts/InputFocusSample.cs'
+'Assets/SampleScenes/InputFocus/Scripts/MovingCube.cs'
+'Assets/SampleScenes/OVRHarness/Scripts/OVRHarness.cs'
+'Assets/SampleScenes/OVRHarness/Scripts/OVRSceneLoader.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/IOVRInspectorContext.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRDiscomfortWarning.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRDiscomfortWarningSource.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorContext.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorLoader.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRInspectorPanelBuilder.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRMousePointer.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRRenderTrackerFrustum.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRSettingsMenu.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRSliderLabelUpdater.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRUISettingsMenu.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRUserPanel.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/OVRWarningList.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/UIUtils/OVRGazeEventTrigger.cs'
+'Assets/SampleScenes/OVRInspector/Scripts/UIUtils/OVRGazeScroller.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/DisplayMono.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/MonoCamera.cs'
+'Assets/SampleScenes/Rendering/Mono Optimization/NearStereoFarMono/StereoToMono.cs'
+'Assets/SampleScenes/Rendering/Movie Player/MoviePlayerControl.cs'
+'Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs'
+'Assets/SampleScenes/Rendering/Render Frame Rate/TimeWarp30HzSample.cs'
+'Assets/SampleScenes/Rendering/Surface Detail/Scripts/ShaderDemo.cs'
+'Assets/SampleScenes/UI/Common/Scripts/leverSystem.cs'
+'Assets/SampleScenes/UI/Common/Scripts/LightControl.cs'
+'Assets/SampleScenes/UI/Common/Scripts/RotationControl.cs'
+'Assets/SampleScenes/UI/Overlay/Scripts/CylinderGeo.cs'
+'Assets/SampleScenes/UI/Overlay/Scripts/OverlayUIDemo.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionDemo.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionInputModule.cs'
+'Assets/SampleScenes/UI/Pointers - Gaze Click/Scripts/GazeInteractionReceiver.cs'
+'Assets/SampleScenes/UI/Pointers/Scripts/PointersControl.cs'
+'Assets/SampleScenes/UI/TrackerFrusta/Scripts/SensorManager.cs'
+'Assets/SampleScenes/UI/TrackerFrusta/Scripts/TrackerFrustum.cs'
+'Assets/UHACK-11_v02/Scripts/DataStream.cs'
+'Assets/UHACK-11_v02/Scripts/EvaluateSimple.cs'
+'Assets/UHACK-11_v02/Scripts/Evaluator/Evaluator.cs'
+'Assets/UHACK-11_v02/Scripts/Evaluator/EvaluatorGrpc.cs'
+'Assets/UHACK-11_v02/Scripts/Layer.cs'
+'Assets/UHACK-11_v02/Scripts/LayerManger.cs'
+'Assets/UHACK-11_v02/Scripts/LayerSpawner.cs'
+'Assets/UHACK-11_v02/Scripts/SnapContainer.cs'
+'Assets/UHACK-11_v02/Scripts/TestCollision.cs'
+'Assets/UHACK-11_v02/Scripts/UI.cs'
+'Assets/UHACK-11_v02/Scripts/VRButton.cs'
+-lib:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api'
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
+Compilation succeeded - 20 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/UHACK-11_v02/Scripts/Layer.cs(19,26): warning CS0109: The member `Layer.rigidbody' does not hide an inherited member. The new keyword is not required
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs(34,16): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs(259,7): warning CS0219: The variable `result' is assigned but its value is never used
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs(77,33): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs(28,26): warning CS0618: `UnityEngine.GUITexture' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(27,31): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(50,30): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs(44,13): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs(139,20): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs(90,17): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(34,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(41,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(24,18): warning CS0414: The private field `OvrAvatarComponent.DrawSkeleton' is assigned but its value is never used
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(25,18): warning CS0414: The private field `OvrAvatarComponent.FirstMaterialUpdate' is assigned but its value is never used
+Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs(83,22): warning CS0414: The private field `OVRTouchSample.DistanceGrabber.m_camera' is assigned but its value is never used
+Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs(229,18): warning CS0414: The private field `OVRInspector.roomForInspector' is assigned but its value is never used
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(72,20): warning CS0414: The private field `MoviePlayerSample.mediaFullPath' is assigned but its value is never used
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(73,15): warning CS0414: The private field `MoviePlayerSample.startedVideo' is assigned but its value is never used
+Assets/UHACK-11_v02/Scripts/SnapContainer.cs(7,17): warning CS0414: The private field `SnapContainer.Collider' is assigned but its value is never used
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0414: The private field `VRButton.collider' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 31 milliseconds
+Pass: 1 took 47 milliseconds
+Assets/UHACK-11_v02/Scripts/Layer.cs(19,26): warning CS0109: The member `Layer.rigidbody' does not hide an inherited member. The new keyword is not required
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/Layer.cs Line: 19)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs(34,16): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/SimpleActivatorMenu.cs Line: 34)
+
+Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs(259,7): warning CS0219: The variable `result' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs Line: 259)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs(77,33): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/ActivateTrigger.cs Line: 77)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs(28,26): warning CS0618: `UnityEngine.GUITexture' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/ForcedReset.cs Line: 28)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(27,31): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs Line: 27)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs(50,30): warning CS0618: `UnityEngine.GUIText' is obsolete: `This component is part of the legacy UI system and will be removed in a future release.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/FPSCounter.cs Line: 50)
+
+Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs(44,13): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/Common/Unity Sample Assets/Utility/TimedObjectDestructor.cs Line: 44)
+
+Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs(139,20): warning CS0618: `UnityEngine.Object.DestroyObject(UnityEngine.Object)' is obsolete: `use Object.Destroy instead.'
+ 
+(Filename: Assets/SampleScenes/First Person/Locomotion/Common/Scripts/TeleportController.cs Line: 139)
+
+Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs(90,17): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/First Person/Locomotion2/Common/Scripts/TeleportAimVisualLaser.cs Line: 90)
+
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(34,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs Line: 34)
+
+Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs(41,16): warning CS0618: `UnityEngine.LineRenderer.SetVertexCount(int)' is obsolete: `Use positionCount instead.'
+ 
+(Filename: Assets/SampleScenes/GuardianBoundarySystem/GuardianBoundaryDisplay.cs Line: 41)
+
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(24,18): warning CS0414: The private field `OvrAvatarComponent.DrawSkeleton' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs Line: 24)
+
+Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs(25,18): warning CS0414: The private field `OvrAvatarComponent.FirstMaterialUpdate' is assigned but its value is never used
+ 
+(Filename: Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs Line: 25)
+
+Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs(83,22): warning CS0414: The private field `OVRTouchSample.DistanceGrabber.m_camera' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Hands/Scripts/DistanceGrabber.cs Line: 83)
+
+Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs(229,18): warning CS0414: The private field `OVRInspector.roomForInspector' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/OVRInspector/Scripts/OVRInspector.cs Line: 229)
+
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(72,20): warning CS0414: The private field `MoviePlayerSample.mediaFullPath' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs Line: 72)
+
+Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs(73,15): warning CS0414: The private field `MoviePlayerSample.startedVideo' is assigned but its value is never used
+ 
+(Filename: Assets/SampleScenes/Rendering/Movie Player/MoviePlayerSample.cs Line: 73)
+
+Assets/UHACK-11_v02/Scripts/SnapContainer.cs(7,17): warning CS0414: The private field `SnapContainer.Collider' is assigned but its value is never used
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/SnapContainer.cs Line: 7)
+
+Assets/UHACK-11_v02/Scripts/VRButton.cs(8,14): warning CS0414: The private field `VRButton.collider' is assigned but its value is never used
+ 
+(Filename: Assets/UHACK-11_v02/Scripts/VRButton.cs Line: 8)
+
+'' is an incorrect path for a scene file. BuildPlayer expects paths relative to the project folder.
+ 
+(Filename:  Line: -1)
+
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.1 MB.
+System memory in use after: 309.2 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 1392.
+Total: 20.390123 ms (FindLiveObjects: 0.971161 ms CreateObjectMapping: 0.157585 ms MarkObjects: 19.117547 ms  DeleteObjects: 0.142434 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.085676 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 307.8 MB.
+System memory in use after: 307.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1392.
+Total: 21.544100 ms (FindLiveObjects: 0.844951 ms CreateObjectMapping: 0.054410 ms MarkObjects: 20.627627 ms  DeleteObjects: 0.015761 ms)
+
+
+*** Cancelled 'Build.Player.WindowsStandaloneSupport' in 6 seconds (6370 ms)
+
+'' is an incorrect path for a scene file. BuildPlayer expects paths relative to the project folder.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Modules/BuildReportingEditor/Public/BuildReport.cpp Line: 559)
+
+Failed to build player.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Runtime/Utilities/Argv.cpp Line: 295)
+
+
+Aborting batchmode due to failure:
+Failed to build player.
+
+[Package Manager] Server::Kill -- Server was shutdown
