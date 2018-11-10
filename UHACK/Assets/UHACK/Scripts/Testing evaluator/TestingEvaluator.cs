@@ -10,21 +10,25 @@ using System.Threading;
 public class TestingEvaluator : MonoBehaviour
 {
 
+    Channel channel;
+    Evaluator.Evaluator.EvaluatorClient client;
+
     // Use this for initialization
     IEnumerator Start()
     {
         yield return null;
-        Channel channel = new Channel("127.0.0.1:50051", ChannelCredentials.Insecure);
+        channel = new Channel("172.18.224.168:50051", ChannelCredentials.Insecure);
         Debug.Log("Created channel.");
         try
         {
-            var client = new Evaluator.Evaluator.EvaluatorClient(channel);
+            client = new Evaluator.Evaluator.EvaluatorClient(channel);
             Debug.Log("Created client.");
-            ConvolutionLayer conv = new ConvolutionLayer { Filters = 1 };
-            Debug.Log("Created concolution layer.");
-            FlattenLayer flatten = new FlattenLayer { };
-            Debug.Log("Created flatten layer.");
-            EvaluateRequest req = new EvaluateRequest { Layers = { new Evaluator.Layer { Convolution = conv }, new Evaluator.Layer { Flatten = flatten } } };
+            EvaluateRequest req = new EvaluateRequest {
+                Layers = {
+                    new Evaluator.Layer { Convolution = new ConvolutionLayer { Filters = 1 } }, 
+                    new Evaluator.Layer { Flatten = new FlattenLayer { }}
+                }
+            };
             Debug.Log("Created evaluate request.");
             using (var call = client.Evaluate(req))
             {

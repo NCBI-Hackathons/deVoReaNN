@@ -90,6 +90,6 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         
         # save the weights
         model_digit_json = model.to_json()
-        with open('model_digit.json','w') as json_file:
+        with open('/project/hackathon/hackers03/shared/model_digit.json','w') as json_file:
             json_file.write(model_digit_json)
-            model.save_weights('model_digit.h5')
+            model.save_weights('/project/hackathon/hackers03/shared/model_digit.h5')

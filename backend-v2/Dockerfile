@@ -1,7 +1,7 @@
-FROM python:3
+FROM tensorflow/tensorflow:latest-gpu-py3
 
 ADD *.py /
 
-RUN pip install numpy keras tensorflow googleapis-common-protos grpcio-tools
+RUN pip install numpy keras googleapis-common-protos grpcio-tools
 
-CMD ["python", "./server.py"]
+CMD ["python", "/server.py"]
