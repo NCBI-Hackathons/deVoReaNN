@@ -1,12 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Grpc.Core;
-using System.Collections;
-using System.Threading.Tasks;
 using System.Threading;
 using Evaluator;
-using Google.Protobuf.Collections;
 
 public class EvaluateSimple : MonoBehaviour
 {
@@ -23,29 +19,39 @@ public class EvaluateSimple : MonoBehaviour
         Debug.Log("Created client.");
     }
 
-    IEnumerable DoEvaluate(LayerType[] simpleLayers)
+    IEnumerable Evaluate(LayerType[] simpleLayers)
     {
         EvaluateRequest req = new EvaluateRequest { };
+        bool flat = false;
         foreach (LayerType l in simpleLayers)
         {
             switch (l)
             {
                 case LayerType.Conv:
+                    if (flat) {
+                        throw new System.ArgumentException("tried to add multidimensional layer after flatten");
+                    }
                     req.Layers.Add(new Evaluator.Layer { Convolution = new Evaluator.ConvolutionLayer { Filters = 1 } });
                     break;
                 case LayerType.Full:
                 case LayerType.Dense:
+                    if (!flat) {
+                        req.Layers.Add(new Evaluator.Layer{Flatten = new Evaluator.FlattenLayer{}});
+                        flat = true;
+                    }
                     req.Layers.Add(new Evaluator.Layer { Dense = new Evaluator.DenseLayer { Neurons = 128 } });
                     break;
                 case LayerType.Pool:
+                    if (flat) {
+                        throw new System.ArgumentException("tried to add multidimensional layer after flatten");
+                    }
                     req.Layers.Add(new Evaluator.Layer { Maxpooling = new Evaluator.MaxpoolingLayer { } });
                     break;
                 case LayerType.Dropout:
                     req.Layers.Add(new Evaluator.Layer { Dropout = new Evaluator.DropoutLayer { Dimension = 0.5f } });
                     break;
                 default:
-                    Debug.Log("Unknown layer type: " + l);
-                    break;
+                    throw new System.ArgumentException("unknown layer type: " + l);
             }
         }
         using (var call = client.Evaluate(req))
@@ -58,11 +64,5 @@ public class EvaluateSimple : MonoBehaviour
                 yield return progress;
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
