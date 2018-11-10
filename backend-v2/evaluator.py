@@ -52,19 +52,17 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # build Keras model
         print("received evaluate request")
         model = Sequential()
-        model.add(Conv2D(nb_filters, kernel_size))
-        model.add(Activation('relu'))
-        print("added first layer")
+        model.add(Conv2D(nb_filters, kernel_size, Activation='relu'))
+        print(request.layers)
         for layer in request.layers:
             typ = layer.WhichOneof("definition")
-            print("adding layer: " + typ)
+            print("> adding layer: " + typ)
             if (typ == None):
                 continue
             if (typ == "convolution"):
                 # do something here
                 conv = layer.convolution
-                model.add(Conv2D(conv.filters > 0, kernel_size))
-                model.add(Activation('relu'))
+                model.add(Conv2D(conv.filters > 0, kernel_size, Activation='relu'))
             elif (typ == "dropout"):
                 dropout = layer.dropout
                 model.add(Dropout(dropout.dimension))
@@ -73,7 +71,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
                 model.add(Flatten())
             elif (typ == "dense"):
                 dense = layer.dense
-                model.add(Dense(dense.neurons))
+                model.add(Dense(dense.neurons, Activation='relu'))
             elif (typ == "maxpooling"):
                 model.add(MaxPooling2D(pool_size=pool_size))
         # classification layer
@@ -81,9 +79,9 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         model.add(Activation('softmax'))
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
-        print("model compiled")
+        print("> model compiled")
         for i in range(nb_epoch):
-            print("training epoch...")
+            print("> training epoch...")
             model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))
             score = model.evaluate(X_test, Y_test, verbose=0)
             yield evaluator_pb2.ProgressUpdate(accuracy=score[1], epochs=i)
