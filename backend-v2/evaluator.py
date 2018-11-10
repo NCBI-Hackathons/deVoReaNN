@@ -49,6 +49,7 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 
 class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
     def Evaluate(self, request, context):
+        K.clear_session()
         # build Keras model
         print("received evaluate request")
         model = Sequential()
@@ -83,18 +84,14 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
         print("> model compiled")
-        accuracy = 0
-        for i in range(nb_epoch):
-            print("> training epoch...")
-            model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))
-            print(model.summary())
-            score = model.evaluate(X_test, Y_test, verbose=0)
-            accuracy = score[1]
-        
+        print("> training")
+        model_log = model.fit(X_train, Y_train, batch_size=batch_size, epochs = nb_epoch, verbose=1, validation_data=(X_test, Y_test))
+        print(model.summary())
+        score = model.evaluate(X_test, Y_test, verbose=0)
+        return evaluator_pb2.ProgressUpdate(accuracy=score[1])
         # save the weights
-        model_digit_json = model.to_json()
-        with open('/project/hackathon/hackers03/shared/model_digit.json','w') as json_file:
-            json_file.write(model_digit_json)
-            model.save_weights('/project/hackathon/hackers03/shared/model_digit.h5')
+        # model_digit_json = model.to_json()
+        # with open('/project/hackathon/hackers03/shared/model_digit.json','w') as json_file:
+        #     json_file.write(model_digit_json)
+        #     model.save_weights('/project/hackathon/hackers03/shared/model_digit.h5')
 
-        return evaluator_pb2.ProgressUpdate(accuracy=accuracy)
