@@ -1,4 +1,4 @@
-# DeepSpace 
+# DeVoReaNN
 
 ## A VR Environment for Assembling Neural Networks!
 
