@@ -52,7 +52,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # build Keras model
         print("received evaluate request")
         model = Sequential()
-        model.add(Conv2D(nb_filters, kernel_size))
+        model.add(Conv2D(nb_filters, kernel_size, input_shape=input_shape))
         model.add(Activation('relu'))
         print(request.layers)
         for layer in request.layers:
@@ -63,7 +63,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
             if (typ == "convolution"):
                 # do something here
                 conv = layer.convolution
-                model.add(Conv2D(conv.filters > 0, kernel_size))
+                model.add(Conv2D(conv.filters, kernel_size))
                 model.add(Activation('relu'))
             elif (typ == "dropout"):
                 dropout = layer.dropout
