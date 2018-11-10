@@ -50,13 +50,15 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
     def Evaluate(self, request, context):
         # build Keras model
-        print("received request")
+        print("received evaluate request")
         model = Sequential()
         model.add(Conv2D(nb_filters, kernel_size))
         model.add(Activation('relu'))
+        print("added first layer")
         for layer in request.layers:
             layer = evaluator_pb2.Layer(layer)
             typ = request.WhichOneof("definition")
+            print("adding layer: " + typ)
             if (typ == None):
                 continue
             if (typ == "convolution"):
@@ -82,6 +84,7 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
         for i in range(nb_epoch):
+            print("training epoch...")
             model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))
             score = model.evaluate(X_test, Y_test, verbose=0)
             yield evaluator_pb2.ProgressUpdate(accuracy=1, epochs=i)
