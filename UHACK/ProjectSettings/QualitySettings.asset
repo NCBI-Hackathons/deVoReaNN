@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!47 &1
+QualitySettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_CurrentQuality: 0
+  m_QualitySettings:
+  - serializedVersion: 2
+    name: Rift
+    pixelLightCount: 5
+    shadows: 2
+    shadowResolution: 2
+    shadowProjection: 1
+    shadowCascades: 4
+    shadowDistance: 150
+    shadowNearPlaneOffset: 2
+    shadowCascade2Split: .333333343
+    shadowCascade4Split: {x: .0666666701, y: .199999988, z: .466666639}
+    blendWeights: 4
+    textureQuality: 0
+    anisotropicTextures: 2
+    antiAliasing: 8
+    softParticles: 0
+    softVegetation: 1
+    realtimeReflectionProbes: 0
+    billboardsFaceCameraPosition: 0
+    vSyncCount: 0
+    lodBias: 2
+    maximumLODLevel: 0
+    particleRaycastBudget: 4096
+    excludedTargetPlatforms:
+    - Android
+    - iPhone
+    - Web
+    - BlackBerry
+    - WP8
+    - Windows Store Apps
+  - serializedVersion: 2
+    name: GearVR
+    pixelLightCount: 2
+    shadows: 1
+    shadowResolution: 1
+    shadowProjection: 1
+    shadowCascades: 2
+    shadowDistance: 150
+    shadowNearPlaneOffset: 2
+    shadowCascade2Split: .333333343
+    shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
+    blendWeights: 4
+    textureQuality: 0
+    anisotropicTextures: 1
+    antiAliasing: 4
+    softParticles: 0
+    softVegetation: 1
+    realtimeReflectionProbes: 0
+    billboardsFaceCameraPosition: 0
+    vSyncCount: 0
+    lodBias: 2
+    maximumLODLevel: 0
+    particleRaycastBudget: 4096
+    excludedTargetPlatforms:
+    - Web
+    - Standalone
+    - iPhone
+    - BlackBerry
+    - Windows Store Apps
+    - WP8
+  m_PerPlatformDefaultQuality:
+    Android: 0
+    BlackBerry: 0
+    Samsung TV: 0
+    Standalone: 0
+    Tizen: 0
+    WP8: 0
+    Web: 0
+    WebGL: 0
+    Windows Store Apps: 0
+    iPhone: 0

@@ -1,13 +1,17 @@
-.vscode/
-*.pyc
-venv/
+UHACK/Assets/Oculus/
+UHACK/Assets/SampleScenes/
+UHACK/Assets/StandardAssets/
+UHACK/Library/
+UHACK/Temp
+.vs/
 
-client/[Ll]ibrary/
-client/[Tt]emp/
-client/[Oo]bj/
-client/[Bb]uild/
-client/[Bb]uilds/
-client/Assets/AssetStoreTools*
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
@@ -39,6 +43,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-UHACK/
-
