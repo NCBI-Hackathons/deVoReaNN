@@ -50,6 +50,7 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
     def Evaluate(self, request, context):
         # build Keras model
+        print("received request")
         model = Sequential()
         model.add(Conv2D(nb_filters, kernel_size))
         model.add(Activation('relu'))
