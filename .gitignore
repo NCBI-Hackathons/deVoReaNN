@@ -1,7 +1,6 @@
 .vscode/
 *.pyc
 venv/
-<<<<<<< HEAD
 
 client/[Ll]ibrary/
 client/[Tt]emp/
@@ -40,6 +39,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-=======
-UHACK/Temp/
->>>>>>> 8e20e98340f869dfcffcca9c0cda0e1223b03488
+
+UHACK/
+
