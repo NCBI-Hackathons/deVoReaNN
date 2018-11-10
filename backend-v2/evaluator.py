@@ -81,12 +81,12 @@ class Evaluator(evaluator_pb2_grpc.EvaluatorServicer):
         model.add(Activation('softmax'))
         # train the model and send progress updates
         model.compile(loss='categorical_crossentropy',optimizer='adadelta',metrics=['accuracy'])
-        print(model.summary())
+        print("model compiled")
         for i in range(nb_epoch):
             print("training epoch...")
             model_log = model.fit(X_train, Y_train, batch_size=batch_size,epochs = 1, verbose=1, validation_data=(X_test, Y_test))
             score = model.evaluate(X_test, Y_test, verbose=0)
-            yield evaluator_pb2.ProgressUpdate(accuracy=1, epochs=i)
+            yield evaluator_pb2.ProgressUpdate(accuracy=score[1], epochs=i)
         
         # save the weights
         model_digit_json = model.to_json()
