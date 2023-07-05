@@ -6,7 +6,7 @@ funcsigs==1.0.2
 futures==3.2.0
 gast==0.2.0
 googleapis-common-protos==1.5.5
-grpcio==1.16.0
+grpcio==1.53.0
 grpcio-tools==1.16.0
 h5py==2.8.0
 Keras==2.2.4
